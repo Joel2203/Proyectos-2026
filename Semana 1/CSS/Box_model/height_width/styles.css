@@ -1,0 +1,29 @@
+h1{
+    color: salmon;
+    background-color: aqua;
+    height: 100px;
+    width: 400px;
+}
+
+form{
+    width: 800px;
+}
+
+input{
+    width: 300px;
+    width: 80%;
+}
+
+
+.container {
+    height: 50px;
+    background: red;
+    width: 100px;
+    
+}
+
+.child {
+    height: 50%;
+    background: blue;
+    width: 200px;
+}

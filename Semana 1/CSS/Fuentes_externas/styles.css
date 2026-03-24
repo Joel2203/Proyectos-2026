@@ -1,0 +1,24 @@
+h1{
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+
+span {
+    text-decoration: line-through;
+    color: red;
+    text-transform: lowercase;
+}
+
+p{
+    font-family: "Joel";
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 700;
+}
