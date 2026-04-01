@@ -1,0 +1,17 @@
+h1{
+    color: salmon;
+}
+
+form{
+    background-color: red;
+    padding: 50px 50px 100px 0px;
+    margin: 10px 10px 100px 0;
+}
+
+.formulario_2{
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
+}
