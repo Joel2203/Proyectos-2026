@@ -22,6 +22,6 @@ div{
 
 .test3{
     border: transparent;
-    border-bottom: 10px aqua;
+    border-bottom: 10px rgb(33, 55, 55);
     border-style: dashed;
 }
