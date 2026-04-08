@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+}
+
+div{
+    font-size: 20px;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 255);
+    margin: 10px;
+    font-size: 2cm;
+}
+
+.b {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 126, 0);
+    margin: 10px;
+    font-size: 1in;
+}
+
+.c {
+    width: 200px;
+    height: 200px;
+    background: #38a;
+    margin: 10px;
+    font-size: 3em;
+}
+
+.d {
+    width: 200px;
+    height: 200px;
+    background: #49f;
+    margin: 10px;
+    font-size: 4rem;
+}
+
+.e {
+    width: 100vw;
+    height: 100vh;
+    background: #1a38;
+    margin: 0;
+}
