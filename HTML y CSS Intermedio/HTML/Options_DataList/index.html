@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options y data lists</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Formulario</h2>
+        <div>
+            <label>Nombres completos
+                <input type="text" placeholder="pon tu nombre">
+            </label>
+        </div>
+        <div>
+            <label> opciones de tipo de Usuario
+                <select name="options">
+                    <option value="user1">Usuario</option>
+                    <option value="user2">Empresas</option>
+                    <option value="user3">Otros</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>referente
+                <input list="referente" name="referente">
+                <datalist id="referente" name="type_user">
+                    <option value="Usuario">ruc 10</option>
+                    <option value="Empresas">ruc 20</option>
+                    <option value="Otros">swift</option>
+                </datalist>
+            </label>
+        </div>
+    </form>
+</body>
+</html>
