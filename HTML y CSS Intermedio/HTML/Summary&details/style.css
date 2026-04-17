@@ -1,0 +1,17 @@
+body{
+    background: #e71;
+    font-family: sans-serif;
+}
+
+form{
+    margin: auto;
+}
+
+details{
+    border: 3px solid #2e4;
+    color: #3af;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    margin: 20px;
+}
