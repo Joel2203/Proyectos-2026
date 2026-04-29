@@ -1,0 +1,41 @@
+body{
+    background-color: #666;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+form{
+    background:linear-gradient(#71f,transparent);
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0;
+
+}
+
+input,textarea{
+    min-width: 100%;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+textarea{
+    resize: none;
+    field-sizing: content;
+    min-width: 100%;
+    min-height: 100px;
+    border-width: 3px;
+}
+
+.buttom{
+    margin: auto;
+    width: 50%;
+}
+
+fieldset{
+    margin: 10px;
+}
