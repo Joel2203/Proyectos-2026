@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+video{
+    width: 500px;
+    height: 500px;
+    background: #000;
+    margin: auto;
+}
+
+audio{
+    width: 500px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
