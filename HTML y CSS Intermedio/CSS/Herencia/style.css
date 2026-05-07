@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+    color: #00f;
+}
+
+h1{
+    color: #f00;
+}
+
+div{
+    color: #666;
+}
+
+/*HEREDA DEL BODY*/
+p{
+    color: inherit;
+}

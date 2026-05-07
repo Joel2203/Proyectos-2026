@@ -1,0 +1,24 @@
+/*SELECTOR POR atributo(ultima palabra)*/
+img[src$="png"]{
+    width: 100%;
+}
+
+/*SELECTOR POR NIETO*/
+ul li{
+    color: #61f;
+}
+
+/*SELECTOR POR HIJO*/
+li > strong{
+    color:#4a1;
+}
+
+/*SELECTOR POR elemento siguiente*/
+h1 + p{
+    color: #fa2;
+}
+
+/*SELECTOR POR todos los elementos que tengan input*/
+p ~ input{
+    background-color: #2ff;
+}
