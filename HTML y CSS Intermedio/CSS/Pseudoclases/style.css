@@ -1,0 +1,24 @@
+h1{
+    color: #7f0;
+}
+/*para cuando pasemos el mouse encima*/
+h1:hover{
+    color: #f00;
+}
+/*para cuanod clikeamo el elemnto*/
+h1:active{
+    background-color: #000;
+    padding: 20px;
+}
+/*estilizara al primer elemeto de la lista*/
+li:first-child{
+    color: #f00;
+}
+/*estilizara al ultimo elemeto de la lista*/
+li:last-child{
+    color: #666;
+}
+/*estilizara a cualquier elemeto de la lista*/
+li:nth-child(2){
+    color: #f90;
+}
