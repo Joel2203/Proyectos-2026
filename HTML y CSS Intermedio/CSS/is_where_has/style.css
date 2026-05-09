@@ -1,0 +1,18 @@
+/*es para tener una agrupacion de elementos con peso jerarjico*/
+:is(h1,h2,h3){
+    color: #6a0;
+    background-color: #40f;
+}
+/*es para agrupar elementos pero no tiene peso jerarjico*/
+:where(li){
+    color: #3ff;
+}
+
+/*esto es para que pase tiene que cumplirse la condicion*/
+label:has(input:valid){
+    color: #090;
+}
+
+label:has(input:invalid){
+    color: #900;
+}
