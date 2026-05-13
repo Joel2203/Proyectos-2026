@@ -1,0 +1,33 @@
+h1::first-letter{
+color: #f00;
+}
+
+P::first-line{
+    color: #9f0;
+}
+
+input::placeholder{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #903;
+    padding: 30px;
+}
+
+li::before{
+    content: 'Escudria ';
+    color: #009;
+}
+
+li::after{
+    content: ' Pts 0';
+    color: #090;
+}
+
+li::marker{
+    color: #f00;
+}
+
+/*si pongo un asterisco es para que seleccion todos los elemento sy ya no esta amarrado a un div*/
+div::selection{
+    background-color: aqua;
+}
