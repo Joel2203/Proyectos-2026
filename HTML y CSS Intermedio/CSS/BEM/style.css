@@ -1,0 +1,22 @@
+.lista{
+    border: 3px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista__autos{
+    color: #666;
+    list-style: square;
+    padding: 10px;
+}
+
+.auto--alemanes{
+    color: #9f0;
+}
+
+.auto--japoneses{
+    color: #009;
+}
+
+.lista--vieja{
+    background-color: #555;
+}
