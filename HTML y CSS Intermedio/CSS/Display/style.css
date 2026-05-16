@@ -1,3 +1,44 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: #48e;
+    font-family: sans-serif;
+}
+
+.nav__list{
+    margin: 0;
+    text-align: center;
+}
+
 .nav__item{
-    display: inline;
+    display: inline-block;
+}
+
+.nav__link{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #48e;
+    display: inline-block;
+}
+
+.nav__link:hover{
+    background-color: #59e;
+    border-radius: 5px;
+}
+
+.link--buttom{
+    border: 1px solid #fff;
+    color: #48e;
+    background-color: #fff;
+    padding: 4px 18px;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+
+.link--buttom:hover{
+    background: transparent;
+    color: #fff;
 }
