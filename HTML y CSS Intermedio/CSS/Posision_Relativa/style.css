@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    background-color: #666;
+}
+
+.box{
+    background-color: #48a;
+    color: #fff;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.box--blue{
+    background-color: #009;
+    top: -120px;
+    z-index: 10;
+}
+
+.box--red{
+    background-color: #f00;
+    left: 60px;
+    top: -230px;
+}
