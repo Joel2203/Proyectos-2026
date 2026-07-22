@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+div{
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 20px 0 #000;
+    box-sizing: border-box;
+    background: linear-gradient(#000,#259);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+p{
+    padding: 5px 10px;
+}
