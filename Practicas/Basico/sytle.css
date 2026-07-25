@@ -24,3 +24,8 @@ img{
 p{
     padding: 5px 10px;
 }
+
+input{
+    border-radius: 10px;
+    background-color: transparent;
+}
