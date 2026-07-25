@@ -6,6 +6,34 @@
     <title>Formulario de compra</title>
 </head>
 <body>
-    
+    <form>
+        <h2>Formulario de contacto</h2>
+        <div>
+            <fieldset>
+                <legend>Datos basicos</legend>
+                    <input type="text" placeholder="pon tu nombre">
+                    <input type="email" placeholder="deja tu email">
+                    <input type="number" placeholder="ingresa tu dni">
+                    <div>
+            <label>Agencia mas cercana  a usted
+                <input list="agencia" name="agencia">
+                <datalist id="agencia" name="type_agencia">
+                    <option value="Nacional">Peru</option>
+                    <option value="Continente">Sud america</option>
+                    <option value="Otros">Otro continente</option>
+                </datalist>
+            </label>
+        </div>
+            </fieldset>
+        </div>
+    </form>
+    <details>
+            <summary>¿Preguntas frecuentes?</summary>
+            <ul>
+                <li>Precio</li>
+                <li>Garantia</li>
+                <li>Mantenimiento</li>
+            </ul>
+    </details>
 </body>
 </html>
