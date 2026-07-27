@@ -81,3 +81,26 @@ a {
     width: 100px;
     margin-top: 20px;
 }
+
+form{
+    max-width: 500px;
+    margin: 10px;
+    margin: auto;
+}
+
+.formulario{
+    width: 80%;
+    margin: 10px;
+}
+
+fieldset{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+details{
+    margin-top: 40px;
+}
