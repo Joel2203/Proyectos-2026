@@ -13,7 +13,18 @@ tambien puede ir so lo necesitamos en su eje X o Y
 overflow-(X o Y):
 
 🧪 Ejemplo rápido
+.box{
+    width: 220px;
+    height: 220px;
+    background-color: #f00;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+}
 
 ❌ Error que cometí
+ninguno
 
 ✅ Solución
+practicar
