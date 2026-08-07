@@ -25,7 +25,7 @@ pero a la vez cuando yo hago un salto de linea especifico me lo respeta,*/
  white-space: (nowrap,pre,pre-wrap,normal)
  text-overflow: (ellipsis, clip)
  overflow: (hidden,scroll,auto)
- word-break: (break-all o keep-all)
+ word-break: (break-all o keep-all o break-word)
  text-wrap:(balance o pretty)
 
 🧪 Ejemplo rápido

@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+img{
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    object-fit: contain;
+    object-position: right;
+}
