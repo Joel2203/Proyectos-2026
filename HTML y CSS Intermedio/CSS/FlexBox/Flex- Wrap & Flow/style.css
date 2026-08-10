@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.flexbox2{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flex-item{
+    width: 500px;
+    height: 150px;
+    background-color: #f00;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item:nth-child(2){
+    background-color: #972;
+}
+
+.flex-item:last-child{
+    background-color: #8f0;
+}
