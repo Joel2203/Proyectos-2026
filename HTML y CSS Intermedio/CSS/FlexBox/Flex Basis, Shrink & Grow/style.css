@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #666;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.flex-item{
+    font-size: 50px;
+    background-color: #f00;
+    text-align: center;
+    color: #fff;
+    flex-flow: row wrap;
+    flex-basis: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex-item:first-child{
+    background-color: #00f;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+}
