@@ -13,6 +13,7 @@ body{
     justify-content: space-evenly;
     padding: 40px;
     background-color: #fff;
+    gap: 10px;
 }
 
 .flex-item{
