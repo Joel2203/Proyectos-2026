@@ -6,10 +6,14 @@ body{
 
 /* #EAC7C7 #FDF8F5 */
 
+/* header */
+
 header{
     text-align: center;
     color: #FDF8F5;
     position: relative;
+    overflow: hidden;
+    min-height: 100vh;
 }
 
 .fotoH{
@@ -24,7 +28,7 @@ header{
 .fondo{
     background-image: url(img/tienda.webp);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: 1;
     position: absolute;
     filter: blur(4px);
@@ -33,7 +37,7 @@ header{
 .overlay{
     background-color: #000c;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     z-index: 5;
 }
@@ -50,5 +54,76 @@ p{
     z-index: 10;
     width: 400px;
     margin: auto;
+    text-wrap: pretty;
+}
+
+/* ------------------------ */
+
+/* navbar */
+
+.nav{
+    background-color: #EAC7C7;
+    display: flex;
+    font-family: sans-serif;
+    flex-flow: row wrap;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 40px 0 #0009;
+    justify-content: center;
+}
+
+.nav-list{
+    display: flex;
+    padding: 10px;
+    justify-content:space-between ;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FDF8F5;
+    border: 2px solid #000;
+    border-radius: 40%;
+    color: #000;
+    transition-property:color,background ;
+    transition-duration:0.4s ;
+    transition-delay: 0.2s;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    margin: 20px;
+}
+
+.nav-link:hover{
+    background-color: #C1E1C1;
+    color: #FDF8F5;
+}
+
+.nav-login{
+    background-color: #C1E1C1;
+    color: #FDF8F5;
+    transition-property:color,background ;
+    transition-duration:0.4s ;
+    transition-delay: 0.2s;
+}
+
+.nav-login:hover{
+    background-color: #fffacd;
+    color: #000;
+}
+
+main{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
     text-wrap: pretty;
 }
