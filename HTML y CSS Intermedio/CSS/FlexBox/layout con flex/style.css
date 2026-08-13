@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #C1E1C1;
+}
+
+/* #EAC7C7 #FDF8F5 */
+
+header{
+    text-align: center;
+    color: #FDF8F5;
+    position: relative;
+}
+
+.fotoH{
+    height: 320px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 6px solid #EAC7C7;
+    z-index: 10;
+    position: relative;
+}
+
+.fondo{
+    background-image: url(img/tienda.webp);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    filter: blur(4px);
+}
+
+.overlay{
+    background-color: #000c;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 5;
+}
+
+h1{
+    position: relative;
+    z-index: 10;
+    font-size: 50px;
+    margin: 15px;
+}
+
+p{
+    position: relative;
+    z-index: 10;
+    width: 400px;
+    margin: auto;
+    text-wrap: pretty;
+}
