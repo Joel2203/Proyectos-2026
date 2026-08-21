@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div,body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.flex-item{
+    background-color: #666;
+    color: #fff;
+    padding: 30px;
+    border: 1px solid #f00;
+    flex-grow: 1;
+}
+
+@media screen and (max-width:600px) {
+    .flexbox{
+        flex-direction: column;
+    }
+}
