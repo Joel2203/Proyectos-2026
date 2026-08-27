@@ -66,6 +66,7 @@ aside,main{
 
 .main-wrapper{
     max-width: 1024px;
+    flex-direction: column;
 }
 
 .main-wrapper{
@@ -105,17 +106,18 @@ main{
 
 .aside:last-child{
     min-width: 10rem;
+    display: none;
 }
-
-@media screen and (max-width: 800px){
-    aside:last-child{
-        display: none;
+/* aca es cuando un pantalla tiene minmo esa resolucion */
+@media screen and (min-width: 480px){ 
+    .main-wrapper{
+        flex-direction: row;
     }
 }
 
-@media screen and (max-width: 480px){
-    .main-wrapper{
-        flex-direction: column;
+@media screen and (min-width: 800px){
+    aside:last-child{
+        display: block;
     }
 }
 
