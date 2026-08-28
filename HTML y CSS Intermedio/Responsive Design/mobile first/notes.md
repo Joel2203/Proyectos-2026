@@ -12,6 +12,7 @@ es una tecnica de desarrollo que depende el stakeholder primero se empieza hacia
 se hace todo pensado para movil
 
 🧪 Ejemplo rápido
+
 ver el css
 
 ❌ Error que cometí

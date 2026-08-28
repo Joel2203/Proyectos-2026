@@ -1,0 +1,11 @@
+@supports (display: grid){
+    body{
+        display: grid;
+    }
+}
+
+@supports not (display: flex){
+    body{
+        display: flex;
+    }
+}
