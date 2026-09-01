@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    container-type: inline-size;
+    container-name: principal;
+}
+
+
+@container principal (max-width: 600px){
+    p{
+        font-size: 30px;
+        color: #4f1;
+        background-color: #f90;
+        transition-property: color,background;
+        transition-delay: 0.4s;
+        transition-duration: 0.2s;
+    }
+    p:hover{
+        color: #f00;
+        background-color: #666;
+    }
+}
