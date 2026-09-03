@@ -6,7 +6,7 @@ fr & auto
 
 ¿Qué hace y cuándo usarlo?
 
-es un tipo de unidades de medida, auto va agarrar solo el espacio que necesityo para mostrar su contenido no tomara nada mas,  fr tomara todo el espacio que sobre en pantalla, si ahy mas de un fr se reparte en partes iguales
+es un tipo de unidades de medida, auto va agarrar solo el espacio que necesita para mostrar su contenido no tomara nada mas, fr tomara todo el espacio que sobre en pantalla, si hay mas de un fr se reparte en partes iguales
 
 ⚙️ Sintaxis básica
 
