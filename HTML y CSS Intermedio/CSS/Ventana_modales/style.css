@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+dialog{
+    background-color:#0009;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    border: none;
+}
+
+.modal__content{
+    background-color: #fff;
+    margin: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal__button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
