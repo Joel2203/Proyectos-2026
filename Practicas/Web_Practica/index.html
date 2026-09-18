@@ -15,13 +15,13 @@
         </div>
         <nav class="header_nav">
             <ul class="header_list">
-                <li class="header_item"><a class="header-nav_item" href="#">HOME</a></li>
-                <li class="header_item"><a class="header-nav_item" href="#">Portafolio</a></li>
-                <li class="header_item"><a class="header-nav_item" href="#">Contact</a></li>
+                <li class="header_item"><a class="header-nav_item" href="#profile">Profile</a></li>
+                <li class="header_item"><a class="header-nav_item" href="#portfolio">Portafolio</a></li>
+                <li class="header_item"><a class="header-nav_item" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main class="profile">
+    <main class="profile" id="profile">
         <div class="profile_wrapper">
             <div class="profile-img_container">
                 <img src="img/joel.jpeg" alt="ing.joel" class="profile-img">
@@ -65,7 +65,60 @@
 
             </div>
         </div>
-
     </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio-tittle">Portfolio section</h2>
+        <div class="portfolio_project-container">
+            <div class="portfolio-project">
+                <h2 class="portfolio-project_name">Project</h2>
+            </div>
+            <div class="portfolio-project">
+                <h2 class="portfolio-project_name">Project</h2>
+            </div>
+            <div class="portfolio-project">
+                <h2 class="portfolio-project_name">Project</h2>
+            </div>
+            <div class="portfolio-project">
+                <h2 class="portfolio-project_name">Project</h2>
+            </div>
+            <div class="portfolio-project">
+                <h2 class="portfolio-project_name">Project</h2>
+            </div>
+            <div class="portfolio-project">
+                <h2 class="portfolio-project_name">Project</h2>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="form">
+        <h2 class="form_tittle">Contact</h2>
+        <form class="form-form">
+            <div class="form-input_container">
+                <label>Nombre
+                    <input type="text" placeholder="Joel">
+                </label>
+            </div>
+            <div class="form-input_container">
+                <label>Apellido
+                    <input type="text" placeholder="Hernandez">
+                </label>
+            </div>
+            <div class="form-input_container">
+                <label>Email
+                    <input type="text" placeholder="example@gmail.com">
+                </label>
+            </div>
+            <div class="form-input_container">
+                <label>Mensaje
+                    <textarea placeholder="your mesagge"></textarea>
+                </label>
+            </div>
+            <div class="form-input_container">
+                <input class="form-input_container-buttom" type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <strong>Industrias Hernandez</strong> - Copyright
+    </footer>
 </body>
 </html>
