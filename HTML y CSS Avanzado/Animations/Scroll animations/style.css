@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: #666;
+    height: 200vh;
+}
+
+*,div{
+    box-sizing: border-box;
+}
+
+.crecedor{
+    height: 200vh;
+}
+
+.container{
+    scroll-timeline: --containerScroll block;
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.box{
+    background-color: #fff;
+    border: 8px solid #48e;
+    padding: 6px;
+    border-radius: 39px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.barra{
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 36px;
+    width: 10%;
+    animation-name: llenar-barra;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-timeline: --containerScroll;
+}
+
+.barra:active{
+    animation-play-state: paused;
+}
+
+@keyframes llenar-barra {
+    
+
+    to{
+        width: 100%;
+        background-color: #f00;
+    }
+}
